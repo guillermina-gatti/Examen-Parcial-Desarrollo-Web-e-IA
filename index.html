@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <header class="header">
-    <nav class="nav" aria-label="Navegación principal">
-      <span class="logo">Chronicles of Code</span>
-      <ul class="nav-links">
+<body class="pantalla-completa">
+  <header class="bloque-superior">
+    <nav class="barra-navegacion" aria-label="Navegación principal">
+      <span class="marca-logo">Chronicles of Code</span>
+      <ul class="lista-enlaces">
         <li><a href="#personaje">Personaje</a></li>
         <li><a href="#stats">Stats</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -21,32 +21,32 @@
     </nav>
   </header>
 
-  <main class="main">
-    <section class="hero" id="personaje" aria-labelledby="titulo-personaje">
-      <figure class="hero-portrait">
-        <img src="https://picsum.photos/seed/zara/120/120" class="avatar"
+  <main class="cuerpo-central">
+    <section class="seccion-heroica" id="personaje" aria-labelledby="titulo-personaje">
+      <figure class="contenedor-retrato">
+        <img src="https://picsum.photos/seed/zara/120/120" class="imagen-avatar"
           alt="Retrato de Zara Darkbane, hechicera de los planos oscuros">
       </figure>
-      <article class="hero-text">
+      <article class="informacion-heroica">
 
-        <h1 class="hero-title" id="titulo-personaje">Zara Darkbane</h1>
-        <span class="class-badge">Hechicera</span>
-        <p class="hero-bio">
+        <h1 class="titulo-principal" id="titulo-personaje">Zara Darkbane</h1>
+        <span class="insignia-clase">Hechicera</span>
+        <p class="biografia-personaje">
           Invocadora de los planos oscuros, Zara domina el arte de la destrucción arcana.
           Sus hechizos pueden desintegrar escudos mágicos y paralizar a los enemigos más poderosos.
           Busca rivales que se atrevan a desafiarla.
         </p>
 
-        <dl class="hero-meta">
-          <div class="meta-item">
+        <dl class="meta-personaje">
+          <div class="item-meta">
             <dt>Nivel:</dt>
             <dd>7</dd>
           </div>
-          <div class="meta-item">
+          <div class="item-meta">
             <dt>Alineación:</dt>
             <dd>Neutral Maligna</dd>
           </div>
-          <div class="meta-item">
+          <div class="item-meta">
             <dt>Origen:</dt>
             <dd>Torre de los Arcanos</dd>
           </div>
@@ -54,96 +54,96 @@
       </article>
     </section>
 
-    <section class="stats-section" id="stats" aria-labelledby="titulo-stats">
-      <h2 class="section-title" id="titulo-stats">Stats de Combate</h2>
+    <section class="seccion-estadisticas" id="stats" aria-labelledby="titulo-stats">
+      <h2 class="titulo-seccion" id="titulo-stats">Stats de Combate</h2>
 
-      <dl class="stats-grid">
+      <dl class="rejilla-stats">
 
-        <article class="stat-card">
-          <img src="https://picsum.photos/seed/heart/40/40" alt="" aria-hidden="true" class="stat-icon">
-          <dd class="stat-value">80</dd>
-          <dt class="stat-label">Vida</dt>
+        <article class="tarjeta-stat">
+          <img src="https://picsum.photos/seed/heart/40/40" alt="" aria-hidden="true" class="icono-stat">
+          <dd class="valor-stat">80</dd>
+          <dt class="etiqueta-stat">Vida</dt>
         </article>
 
-        <article class="stat-card">
-          <img src="https://picsum.photos/seed/mana/40/40" alt="" aria-hidden="true" class="stat-icon">
-          <dd class="stat-value">120</dd>
-          <dt class="stat-label">Mana</dt>
+        <article class="tarjeta-stat">
+          <img src="https://picsum.photos/seed/mana/40/40" alt="" aria-hidden="true" class="icono-stat">
+          <dd class="valor-stat">120</dd>
+          <dt class="etiqueta-stat">Mana</dt>
         </article>
 
-        <article class="stat-card">
-          <img src="https://picsum.photos/seed/sword/40/40" alt="" aria-hidden="true" class="stat-icon">
-          <dd class="stat-value">45</dd>
-          <dt class="stat-label">Ataque</dt>
+        <article class="tarjeta-stat">
+          <img src="https://picsum.photos/seed/sword/40/40" alt="" aria-hidden="true" class="icono-stat">
+          <dd class="valor-stat">45</dd>
+          <dt class="etiqueta-stat">Ataque</dt>
         </article>
 
-        <article class="stat-card">
-          <img src="https://picsum.photos/seed/shield/40/40" alt="" aria-hidden="true" class="stat-icon">
-          <dd class="stat-value">30</dd>
-          <dt class="stat-label">Defensa</dt>
+        <article class="tarjeta-stat">
+          <img src="https://picsum.photos/seed/shield/40/40" alt="" aria-hidden="true" class="icono-stat">
+          <dd class="valor-stat">30</dd>
+          <dt class="etiqueta-stat">Defensa</dt>
         </article>
 
       </dl>
     </section>
 
-    <section class="skills-section" id="habilidades" aria-labelledby="titulo-habilidades">
-      <h2 class="section-title" id="titulo-habilidades">Habilidades</h2>
+    <section class="seccion-habilidades" id="habilidades" aria-labelledby="titulo-habilidades">
+      <h2 class="titulo-seccion" id="titulo-habilidades">Habilidades</h2>
 
-      <article class="skill-card">
-        <h3 class="skill-name">Bola de Fuego</h3>
-        <p class="skill-desc">
+      <article class="tarjeta-habilidad">
+        <h3 class="nombre-habilidad">Bola de Fuego</h3>
+        <p class="desc-habilidad">
           Lanza una esfera de fuego puro que explota al impacto, causando daño en área.
         </p>
-        <p class="skill-cost">Costo: 30 de mana</p>
+        <p class="costo-habilidad">Costo: 30 de mana</p>
 
-        <ul class="tags">
-          <li class="tag">Fuego</li>
-          <li class="tag">Área</li>
-          <li class="tag">Ofensivo</li>
+        <ul class="grupo-etiquetas">
+          <li class="etiqueta-tag">Fuego</li>
+          <li class="etiqueta-tag">Área</li>
+          <li class="etiqueta-tag">Ofensivo</li>
         </ul>
       </article>
 
-      <article class="skill-card">
-        <h3 class="skill-name">Escudo de Hielo</h3>
-        <p class="skill-desc">
+      <article class="tarjeta-habilidad">
+        <h3 class="nombre-habilidad">Escudo de Hielo</h3>
+        <p class="desc-habilidad">
           Crea una barrera de cristal helado que absorbe el siguiente golpe recibido.
         </p>
-        <p class="skill-cost">Costo: 20 de mana</p>
-        <ul class="tags">
-          <li class="tag">Hielo</li>
-          <li class="tag">Defensivo</li>
+        <p class="costo-habilidad">Costo: 20 de mana</p>
+        <ul class="grupo-etiquetas">
+          <li class="etiqueta-tag">Hielo</li>
+          <li class="etiqueta-tag">Defensivo</li>
         </ul>
       </article>
 
-      <article class="skill-card">
-        <h3 class="skill-name">Rayo Carmesí</h3>
-        <p class="skill-desc">
+      <article class="tarjeta-habilidad">
+        <h3 class="nombre-habilidad">Rayo Carmesí</h3>
+        <p class="desc-habilidad">
           Canaliza energía arcana oscura y dispara un rayo que atraviesa cualquier escudo.
           Aturde al objetivo durante 2 turnos.
         </p>
-        <p class="skill-cost">Costo: 50 de mana</p>
-        <ul class="tags">
-          <li class="tag">Oscuro</li>
-          <li class="tag">Aturdir</li>
-          <li class="tag">Penetrante</li>
+        <p class="costo-habilidad">Costo: 50 de mana</p>
+        <ul class="grupo-etiquetas">
+          <li class="etiqueta-tag">Oscuro</li>
+          <li class="etiqueta-tag">Aturdir</li>
+          <li class="etiqueta-tag">Penetrante</li>
         </ul>
       </article>
 
     </section>
 
-    <section class="challenge-section" id="desafio" aria-labelledby="titulo-desafio">
-      <h2 class="section-title" id="titulo-desafio">¿Te animás a desafiarla?</h2>
-      <p class="challenge-intro">
+    <section class="seccion-desafio" id="desafio" aria-labelledby="titulo-desafio">
+      <h2 class="titulo-seccion" id="titulo-desafio">¿Te animás a desafiarla?</h2>
+      <p class="intro-desafio">
         Registrá tu personaje para enfrentarte a Zara Darkbane en el próximo torneo.
         Solo los más valientes (o los más locos) se atreven.
       </p>
 
-      <form id="challenge-form" aria-labelledby="titulo-desafio">
+      <form id="challenge-form" class="formulario-desafio" aria-labelledby="titulo-desafio">
 
         <label for="challenger-name">Nombre de tu personaje</label>
         <input type="text" id="challenger-name" name="challenger-name" placeholder="Ej: Kael Stormborn"
           aria-describedby="nombre-ayuda">
-        <span id="nombre-ayuda" class="field-hint">
+        <span id="nombre-ayuda" class="ayuda-campo">
           Ingresá el nombre con el que tu personaje será anunciado en el torneo.
         </span>
 
@@ -159,7 +159,7 @@
           <option value="10">Nivel 10+</option>
         </select>
 
-        <button type="submit" class="btn" id="submit-btn">
+        <button type="submit" class="boton-accion" id="submit-btn">
           Inscribirme al torneo
         </button>
 
@@ -168,7 +168,7 @@
 
   </main>
 
-  <footer class="footer">
+  <footer class="bloque-inferior">
     <p>© 2025 Chronicles of Code — Todos los derechos reservados</p>
     <p>Zara Darkbane no se hace responsable por los daños causados en combate.</p>
   </footer>

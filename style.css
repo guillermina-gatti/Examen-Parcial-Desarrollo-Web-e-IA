@@ -1,0 +1,309 @@
+:root {
+    --fondo-oscuro: #1a1a2e;
+    --fondo-medio: #16213e;
+    --fondo-profundo: #0f3460;
+    --color-acento: #e94560;
+    --texto-principal: #e8e8e8;
+    --texto-atenuado: #b0b8c1;
+    --blanco: #ffffff;
+}
+/* RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pantalla-completa {
+    display: grid;
+    grid-template-areas:
+        "superior"
+        "principal"
+        "inferior";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--texto-principal);
+    background: var(--fondo-oscuro);
+    line-height: 1.6;
+}
+
+.bloque-superior {
+    grid-area: superior;
+    background: var(--fondo-oscuro);
+    padding: 1rem 2.5rem;
+    border-bottom: 3px solid var(--color-acento);
+}
+
+.cuerpo-central {
+    grid-area: principal;
+}
+
+.bloque-inferior {
+    grid-area: inferior;
+    background: var(--fondo-oscuro);
+    color: var(--texto-principal);
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 3px solid var(--color-acento);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.marca-logo {
+    color: var(--color-acento);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.lista-enlaces {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.lista-enlaces a {
+    text-decoration: none;
+    color: var(--texto-principal);
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.lista-enlaces a:hover,
+.lista-enlaces a:focus {
+    color: var(--color-acento);
+    outline: none;
+}
+
+.seccion-heroica {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 4rem 2.5rem;
+    background: var(--fondo-medio);
+}
+
+.imagen-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--color-acento);
+    object-fit: cover;
+}
+
+.informacion-heroica {
+    flex: 1;
+    min-width: 300px;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    color: var(--color-acento);
+    margin-bottom: 0.5rem;
+}
+
+.insignia-clase {
+    display: inline-block;
+    background: var(--color-acento);
+    color: var(--blanco);
+    padding: 0.25rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.biografia-personaje {
+    margin: 1.5rem 0;
+    max-width: 650px;
+}
+
+.meta-personaje {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.item-meta {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.item-meta dt {
+    color: var(--color-acento);
+    font-weight: bold;
+}
+
+.seccion-estadisticas {
+    padding: 4rem 2.5rem;
+    background: var(--fondo-profundo);
+}
+
+.titulo-seccion {
+    font-size: 1.8rem;
+    color: var(--blanco);
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--color-acento);
+    padding-bottom: 0.5rem;
+}
+
+.rejilla-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+}
+
+.tarjeta-stat {
+    background: var(--fondo-medio);
+    border: 1px solid var(--color-acento);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icono-stat {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.valor-stat {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--color-acento);
+}
+
+.etiqueta-stat {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--texto-atenuado);
+}
+
+.seccion-habilidades {
+    padding: 4rem 2.5rem;
+    background: var(--fondo-oscuro);
+}
+
+.tarjeta-habilidad {
+    background: var(--fondo-medio);
+    border: 1px solid var(--color-acento);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.nombre-habilidad {
+    color: var(--color-acento);
+    margin-bottom: 0.5rem;
+}
+
+.costo-habilidad {
+    font-size: 0.85rem;
+    color: var(--texto-atenuado);
+    margin: 0.5rem 0;
+}
+
+.grupo-etiquetas {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.etiqueta-tag {
+    background: var(--color-acento);
+    color: var(--blanco);
+    padding: 0.2rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.seccion-desafio {
+    padding: 4rem 2.5rem;
+    background: var(--fondo-profundo);
+}
+
+.intro-desafio {
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.formulario-desafio {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-desafio label {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.formulario-desafio input,
+.formulario-desafio select {
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid var(--color-acento);
+    background: var(--fondo-medio);
+    color: var(--texto-principal);
+    border-radius: 0.25rem;
+}
+
+.ayuda-campo {
+    font-size: 0.8rem;
+    color: var(--texto-atenuado);
+    margin-top: -1rem;
+    margin-bottom: 1.2rem;
+}
+
+.boton-accion {
+    padding: 1rem;
+    background: var(--color-acento);
+    color: var(--blanco);
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.boton-accion:hover {
+    background: #ff4d6d;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+
+    .bloque-superior,
+    .seccion-heroica,
+    .seccion-estadisticas,
+    .seccion-habilidades,
+    .seccion-desafio {
+        padding: 2rem 1.5rem;
+    }
+
+    .barra-navegacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo-principal {
+        font-size: 2rem;
+    }
+}

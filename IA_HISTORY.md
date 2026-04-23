@@ -23,7 +23,7 @@
 ## Prompt 1
 
 ### Momento del proceso
-Al terminar el maquetado, noté que el código tenía demasiadas etiquetas <div> y decidí usar la IA para que corrigiera el código y me diera sugerencias de mejora.
+Al terminar el maquetado, note que el codigo tenia demasiadas etiquetas <div> y decidi usar la IA para que corrigiera el codigo y me diera sugerencias de mejora
 
 ### Lo que le pedí a la IA
 Ayudame a corregir el tema de los divs en mi codigo y usa etiquetas semanticas de HTML5 para mejorar la estructura
@@ -41,58 +41,16 @@ Fue una experiencia buena. La IA es un apoyo que en general esta bueno usar para
 ## Prompt 2
 
 ### Momento del proceso
-
-```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
+Me di cuenta de que los colores que venian en el ejercicio eran demasiado oscuros y casi no tenian contraste.
 
 ### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
+Cambiame los colores del CSS para que se vean bien y tengan buen contraste para ser mas accesible.
 
 ### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
-  - ¿Qué parte te resultó útil como punto de partida?
--->
-```
+La IA fue directo a la parte del :root y cambió todas las variables de color. Me gustó porque no tuvo que tocar todo el archivo, sino que ajusto los colores principales desde arriba
 
 ### Qué debí corregir manualmente y por qué
-
-```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
-
----
+No tuve que tocar nada de los colores porque la IA lo resolvió bien de una. Lo que si hice fue entrar al inspector de elementos del navegador DevTools para confirmar que se cumplieran los requisitos.
 
 ## Reflexión final
-
-```
-<!--
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué tipo de errores repitió la IA que tuviste que corregir?
-  - ¿Hubo algo que la IA resolvió bien a la primera sin que necesitaras tocarlo?
-  - ¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
--->
-```
+Para la próxima deberia mejorar la forma de pedirle cosas a la IA. En general me ayudó bastante, pero siento que me falto aclarar mejor lo que necesitaba
