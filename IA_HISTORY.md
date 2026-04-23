@@ -1,7 +1,7 @@
 # IA_HISTORY.md — Registro de Uso de IA
 
-**Alumno/a:** <!-- Tu nombre completo -->
-**Fecha:** <!-- Fecha del examen, ej: 21/04/2026 -->
+**Alumno/a:*Guillermina Julieta Gatti Bosoms* <!-- Tu nombre completo -->
+**Fecha:**23/04/2026 <!-- Fecha del examen, ej: 21/04/2026 -->
 
 ---
 
@@ -23,50 +23,20 @@
 ## Prompt 1
 
 ### Momento del proceso
-
-```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
+Al terminar el maquetado, noté que el código tenía demasiadas etiquetas <div> y decidí usar la IA para que corrigiera el código y me diera sugerencias de mejora.
 
 ### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
+Ayudame a corregir el tema de los divs en mi codigo y usa etiquetas semanticas de HTML5 para mejorar la estructura
 
 ### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
-  - ¿Qué parte te resultó útil como punto de partida?
--->
-```
+El resultado fue bueno, la IA corrigio lo maximo que pudo el contenido del HTML y me dio un resultado mejor de lo que esperaba. 
 
 ### Qué debí corregir manualmente y por qué
+La IA me ayudo con las correcciones, pero no siempre me daba la opción más justa para lo que yo necesitaba. Decidi cambiar algunas etiquetas por <article> en las partes donde me parecia que quedaba mejor. 
 
-```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
+### Reflexión final
+Fue una experiencia buena. La IA es un apoyo que en general esta bueno usar para mejorar el resultado. 
 
----
 
 ## Prompt 2
 
