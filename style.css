@@ -2,12 +2,13 @@
     --fondo-oscuro: #1a1a2e;
     --fondo-medio: #16213e;
     --fondo-profundo: #0f3460;
-    --color-acento: #e94560;
+    --color-acento: #ff5d75;
     --texto-principal: #e8e8e8;
     --texto-atenuado: #b0b8c1;
     --blanco: #ffffff;
 }
-/* RESET */
+
+/*RESET */
 *,
 *::before,
 *::after {
